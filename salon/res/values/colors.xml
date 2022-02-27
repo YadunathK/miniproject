@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="back1">#CE4F6F8F</color>
+    <color name="back2">#DD3498DB</color>
+    <color name="textColor">#000</color>
+    <color name="textColor_white">#fff</color>
+    <color name="light_black">#E8000000</color>
+
+
+    <color name="booked">#FF0000</color>
+    <color name="clicked">#39FF00</color>
+
+</resources>
