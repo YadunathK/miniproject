@@ -1,0 +1,95 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout android:layout_height="400dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:background="@drawable/bgregister"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:fontFamily="@font/hpunk_ap"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="40dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/textColor"
+                    android:textStyle="italic"
+                    android:text="You have successfuly registred.....!"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="italic"
+                    android:text="Waite for ADMIN's Responce"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="italic"
+                    android:text="Waite 24 Hr's "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="italic"
+                    android:text="If ADDMIN didn't responded call"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="9562473440"/>
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/gooback"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_black_rectangle"
+                    android:text="Go to login page"
+                    android:textColor="@color/textColor_white"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

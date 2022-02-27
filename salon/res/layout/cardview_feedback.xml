@@ -1,0 +1,65 @@
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:stretchColumns="1"
+        android:orientation="vertical">
+
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="130dp"
+                android:gravity="center"
+                android:text="Date"
+                android:textSize="18dp"/>
+            <TextView android:text="........"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/tesxbox_rectangle"
+                android:id="@+id/fdate"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="130dp"
+                android:gravity="center"
+                android:text="User Name"
+                android:textSize="18dp"/>
+            <TextView android:text="........"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/tesxbox_rectangle"
+                android:id="@+id/fusername"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="130dp"
+                android:gravity="center"
+                android:text="Mobile"
+                android:textSize="18dp"/>
+            <TextView android:text="........"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/tesxbox_rectangle"
+                android:id="@+id/fmobile"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <TextView
+                android:layout_width="130dp"
+                android:gravity="center"
+                android:text="Feedback"
+                android:textSize="18dp"/>
+            <TextView android:text="........"
+                android:layout_height="100dp"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/tesxbox_rectangle"
+                android:id="@+id/ffeedback"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

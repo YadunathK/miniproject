@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="top">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Booking History"
+            android:layout_margin="30dp"
+            android:textSize="38dp"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:fontFamily="@font/fredoka_one"
+            android:layout_marginBottom="5dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rrvCart"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="No Active Booking"
+            android:layout_marginTop="90dp"
+            android:visibility="invisible"
+            android:id="@+id/noBookingHistoryTextView"/>
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,221 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's Register"
+                android:textColor="@color/textColor"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_margin="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp">
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Already have an account?"
+                        android:textColor="@color/textColor"
+                        android:layout_marginLeft="47dp"
+                        android:textSize="17dp"/>
+                    <TextView android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Click here!"
+                        android:textStyle="bold"
+                        android:id="@+id/registerGoToLogin"
+                        android:textColor="@color/textColor"
+                        android:textSize="19dp"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:hint="Owner Full Name "
+                    android:maxLines="1"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerFullName" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColorHint="@color/textColor"
+                    android:hint="Shop Name"
+                    android:paddingLeft="19dp"
+                    android:textColor="@color/textColor"
+                    android:maxLines="1"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/RegisterShopName"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:hint="Shop ID"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerShopID"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:hint="Place"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerplace"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:layout_marginLeft="10dp"
+                    android:maxLines="1"
+                    android:layout_marginRight="10dp"
+                    android:textColorHint="@color/textColor"
+                    android:hint="Owner Mobile No"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:paddingLeft="19dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerMobileNo"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:lines="5"
+                    android:maxLines="5"
+                    android:textColor="@color/textColor"
+                    android:hint="Address"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerAddress"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:hint="Employee Name"
+                    android:inputType="textPostalAddress"
+                    android:layout_marginLeft="10dp"
+                    android:maxLines="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerEmployeeName"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:maxLines="1"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:hint="Employee Contact Number"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerEmployeeContactNumber"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:maxLines="1"
+                    android:textColorHint="@color/textColor"
+                    android:paddingLeft="19dp"
+                    android:hint="Create Password"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:background="@drawable/textboxregister"
+                    android:id="@+id/registerPassword"/>
+                <TableLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <ImageView android:layout_height="100dp"
+                            android:layout_marginLeft="19dp"
+                            android:layout_width="100dp"
+                            android:src="@drawable/hair"
+                            android:id="@+id/img1"/>
+                        <ImageView android:layout_height="100dp"
+                            android:layout_marginLeft="17dp"
+                            android:layout_width="100dp"
+                            android:src="@drawable/hair"
+                            android:id="@+id/img2"/>
+                        <ImageView android:layout_height="100dp"
+                            android:layout_width="100dp"
+                            android:layout_marginLeft="17dp"
+                            android:src="@drawable/hair"
+                            android:id="@+id/img3"/>
+                    </TableRow>
+                </TableLayout>
+                <TableLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:stretchColumns="0">
+                    <TableRow>
+                        <TextView/>
+                        <Button android:text="Signup"
+                            android:layout_height="45dp"
+                            android:layout_width="140dp"
+                            android:id="@+id/registerSignupButton"
+                            android:background="@drawable/button_black_rectangle"
+                            android:textSize="20dp"
+                            android:layout_margin="20dp"
+                            android:textColor="@color/textColor_white"
+                            android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

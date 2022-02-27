@@ -1,0 +1,152 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/one"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="61dp"
+        android:layout_alignBottom="@+id/last"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                app:sliderAnimationDuration="1800"
+                app:sliderAutoCycleDirection="right"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="1000"
+                android:layout_margin="8dp"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="5"
+                android:layout_marginBottom="5dp"
+                app:sliderStartAutoCycle="true" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCustomerHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="61dp"
+        android:id="@+id/last"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/search"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/search" />
+
+                <Button
+                    android:layout_width="2dp"
+                    android:layout_height="40dp"
+                    android:background="#050505" />
+
+                <Button
+                    android:id="@+id/catagory"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/catagory" />
+
+                <Button
+                    android:layout_width="2dp"
+                    android:layout_height="40dp"
+                    android:background="#050505" />
+
+                <Button
+                    android:id="@+id/home"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/shome"
+                    android:paddingRight="5dp"
+                    android:shadowColor="#fff" />
+
+                <Button
+                    android:layout_width="2dp"
+                    android:layout_height="40dp"
+                    android:background="#050505" />
+
+                <Button
+                    android:id="@+id/cart"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/cart" />
+
+                <Button
+                    android:layout_width="2dp"
+                    android:layout_height="40dp"
+                    android:background="#050505" />
+
+                <Button
+                    android:id="@+id/account"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/account" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="@font/neo_latina_ap"
+                android:textColor="@color/textColor"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
+                    <TableRow>
+                        <Button android:layout_width="166dp"
+                            android:background="@drawable/button_black_rectangle"
+                            android:text="sign up"
+                            android:textSize="18dp"
+                            android:textColor="#fff"/>
+                        <Button  android:layout_width="165dp"
+                            android:background="#B7959595"
+                            android:text="login"
+                            android:textSize="18dp"
+                            android:id="@+id/signupButtonLogin"
+                            android:textColor="#fff"/>
+                    </TableRow>
+
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="60dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Name"
+                        android:textColor="@color/textColor"
+                        android:textColorHint="@color/textColor"
+                        android:textSize="19dp"
+                        android:inputType="text"
+                        android:background="@drawable/textbox"
+                        android:padding="11dp"
+                        android:id="@+id/signupName"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Mob No."
+                        android:inputType="phone"
+                        android:textColor="@color/textColor"
+                        android:maxLength="10"
+                        android:textColorHint="@color/textColor"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox"
+                        android:padding="11dp"
+                        android:id="@+id/signupMobNo"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Password"
+                        android:textColor="@color/textColor"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/textColor"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox"
+                        android:padding="11dp"
+                        android:id="@+id/signupPassword"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="40dp">
+                        <ProgressBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:outlineAmbientShadowColor="@color/textColor"
+                            android:outlineSpotShadowColor="#fff"
+                            android:id="@+id/Progressba" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:visibility="invisible"
+                            android:text="Checking Details"
+                            android:textColor="@color/textColor"
+                            android:textSize="17dp"
+                            android:id="@+id/ProgressbaText"
+                            android:layout_marginLeft="20dp"/>
+                    </LinearLayout>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="Sign up"
+                        android:textColor="@color/textColor_white"
+                        android:textSize="18dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_black_rectangle"
+                        android:padding="11dp"
+                        android:textStyle="bold"
+                        android:id="@+id/signupButtonsignup"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
